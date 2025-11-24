@@ -8,7 +8,7 @@
  * Example:
  * 
  *     // A small extended RegExp for syntax highlighting purposes.
- *     // String.raw`…` because otherwise we have to escape all \ characters, which gets confusing fast.
+ *     // String.raw`…` because otherwise we have to escape all \ characters, which gets confusing fast. Escape ` with \u0060.
  *     // Comment "# key = value" is there to test lines that only contain a comment (they're removed).
  *     // The escaped space in "^ \ (?<name>" to test escaped whitespaces outside of character classes (they have to be retained).
  *     // Space in character class "[^\] ]" to test whitespaces in character class (they have to be retained).
